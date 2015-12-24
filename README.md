@@ -66,7 +66,7 @@ Good old ES5 in NodeJS:
 }
 ```
 
-Simply create a `.eslintrc` file with your desired base configuration. Feel free to override rules you won't agree with.
+Simply create a `.eslintrc.json` file with your desired base configuration. Feel free to override rules you won't agree with.
 
 
 ## License

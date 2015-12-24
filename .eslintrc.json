@@ -1,0 +1,10 @@
+{
+    "extends": [
+        "./es6.js",
+        "./addons/node.js"
+    ],
+    "rules": {
+        // consistency for this project
+        "quote-props": [2, "always"]
+    }
+}

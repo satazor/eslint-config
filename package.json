@@ -1,0 +1,31 @@
+{
+  "name": "@satazor/eslint-config",
+  "description": "My own eslint configurations",
+  "version": "0.1.0",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "eslint-config",
+    "eslint",
+    "lint",
+    "linter",
+    "style"
+  ],
+  "author": "André Cruz <andremiguelcruz@msn.com>",
+  "homepage": "https://github.com/satazor/eslint-config",
+  "bugs": {
+    "url": "https://github.com/satazor/eslint-config/issues"
+  },
+  "repository": "git://github.com/satazor/eslint-config.git",
+  "main": "./configurations/eslint.js",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^1.10.3",
+    "eslint-plugin-filenames": "^0.2.0",
+    "eslint-plugin-react": "^3.13.0"
+  },
+  "peerDependencies": {
+    "eslint": "^1.10.3"
+  }
+}

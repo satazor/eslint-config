@@ -41,8 +41,8 @@ Cutting edge ES6 in the browser, using react:
     "root": true,
     "extends": [
         "@satazor/es6",
-        "@satazor/browser",
-        "@satazor/react"
+        "@satazor/addons/browser",
+        "@satazor/addons/react"
     ]
 }
 ```
@@ -54,7 +54,7 @@ Cutting edge ES6 in NodeJS:
     "root": true,
     "extends": [
         "@satazor/es5",
-        "@satazor/browser"
+        "@satazor/addons/browser"
     ]
 }
 ```
@@ -66,18 +66,17 @@ Good old ES5 in NodeJS:
     "root": true,
     "extends": [
         "@satazor/es6",
-        "@satazor/node"
+        "@satazor/addons/node"
     ]
 }
 ```
 
-Note that the `root` being true ensures that no parent configuration is used which also improves `eslint` performance because no more file lookups need to be done.
+Note that by setting `root` to true, we ensure that no ancestor configuration is used which also improves `eslint` performance because no more file lookups need to be done.
 
 
 ## File name convention
 
-- If your file exports a single class, your filename should be exactly the name of the class.
-- For other cases, the name of the file should be the same as the default exports (prefer camelCase).
+If your file exports a single class, your filename should be exactly the name of the class. For other cases, the name of the file should be the same as the default exports (prefer camelCase).
 
 
 ## License

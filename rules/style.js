@@ -39,7 +39,8 @@ module.exports = {
         // disallow mixed 'LF' and 'CRLF' as linebreaks
         'linebreak-style': [2, 'unix'],
         // enforces empty lines around comments
-        'lines-around-comment': 2,
+        // comment: I would like to use this but the rule is very restrictive.. it lacks some flexibility
+        'lines-around-comment': 0,
         // specify the maximum depth that blocks can be nested
         'max-depth': [1, 6],
         // specify the maximum length of a line in your program

@@ -4,7 +4,6 @@ module.exports = {
     'extends': [
         './rules/best-practices',
         './rules/errors',
-        './rules/filenames',
         './rules/node',
         './rules/strict',
         './rules/style',

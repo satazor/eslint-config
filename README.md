@@ -5,7 +5,7 @@ My own eslint configurations.
 
 ## Installation
 
-`$ npm install --save-dev satazor@eslint-config eslint@^1.10.3 eslint-plugin-filenames@^0.2.0`
+`$ npm install --save-dev satazor@eslint-config eslint@^1.10.3`
 
 Additional dependencies that need to be installed per addon:
 

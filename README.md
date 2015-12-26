@@ -9,7 +9,7 @@ My own eslint configurations.
 
 Additional dependencies that need to be installed per addon:
 
-`react-addon`: `$ npm install --save-dev eslint-plugin-react@^3.13.0`
+`react` addon: `$ npm install --save-dev eslint-plugin-react@^3.13.0`
 
 This plugin was tested with these dependencies version ranges. Use other versions at your own risk. I will try to keep this project up to date with the changes of `eslint` and the plugins used here.
 
@@ -36,6 +36,7 @@ Cutting edge ES6 in the browser, using react:
 
 ```json
 {
+    "root": true,
     "extends": [
         "@satazor/es6",
         "@satazor/browser",
@@ -48,6 +49,7 @@ Cutting edge ES6 in NodeJS:
 
 ```json
 {
+    "root": true,
     "extends": [
         "@satazor/es5",
         "@satazor/browser"
@@ -59,6 +61,7 @@ Good old ES5 in NodeJS:
 
 ```json
 {
+    "root": true,
     "extends": [
         "@satazor/es6",
         "@satazor/node"
@@ -66,7 +69,7 @@ Good old ES5 in NodeJS:
 }
 ```
 
-Simply create a `.eslintrc.json` file with your desired base configuration. Feel free to override rules you won't agree with.
+Simply create a `.eslintrc.json` file with your desired base configuration. Feel free to override rules you won't agree with. Note that the `root` being true ensures that no parent configuration is used which also improves `eslint` performance because no more file lookups need to be done.
 
 
 ## File name convention

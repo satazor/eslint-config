@@ -69,6 +69,12 @@ Good old ES5 in NodeJS:
 Simply create a `.eslintrc.json` file with your desired base configuration. Feel free to override rules you won't agree with.
 
 
+## File name convention
+
+- If your file exports a single class, your filename should be exactly the name of the class.
+- For other cases, the name of the file should be the same as the default exports (prefer camelCase).
+
+
 ## License
 
 [MIT License](http://opensource.org/licenses/MIT)

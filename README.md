@@ -9,7 +9,7 @@ My own eslint configurations.
 
 Additional dependencies that need to be installed per addon:
 
-`react` addon: `$ npm install --save-dev eslint-plugin-react@^3.13.0`
+react addon: `$ npm install --save-dev eslint-plugin-react@^3.13.0`
 
 This plugin was tested with these dependencies version ranges. Use other versions at your own risk. I will try to keep this project up to date with the changes of `eslint` and the plugins used here.
 
@@ -28,6 +28,8 @@ Then enhance it with one or more **addons**:
 - `react` - If you are going to use React and JSX (requires `eslint-plugin-react`)
 
 Alternatively, you can make your own configuration by using the set of **rules** individually. If you're interested in doing that, you can check `es5.js` to see how it is done.
+
+Simply create a `.eslintrc.json` file with your desired base configuration and addons. Feel free to override rules you won't agree with. You can look at some examples bellow.
 
 
 ### Examples
@@ -69,7 +71,7 @@ Good old ES5 in NodeJS:
 }
 ```
 
-Simply create a `.eslintrc.json` file with your desired base configuration. Feel free to override rules you won't agree with. Note that the `root` being true ensures that no parent configuration is used which also improves `eslint` performance because no more file lookups need to be done.
+Note that the `root` being true ensures that no parent configuration is used which also improves `eslint` performance because no more file lookups need to be done.
 
 
 ## File name convention

@@ -95,7 +95,7 @@ module.exports = {
         // allow just one var statement per function
         'one-var': [2, 'never'],
         // require assignment operator shorthand where possible or prohibit it entirely
-        'operator-assignment': [2, 'never'],
+        'operator-assignment': 0,
         // enforce operators to be placed before or after line breaks
         'operator-linebreak': 0,
         // enforce padding within blocks

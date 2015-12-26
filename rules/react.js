@@ -27,13 +27,13 @@ module.exports = {
         // Detect missing key prop
         'react/jsx-key': 1,
         // Limit maximum of props on a single line in JSX
-        'react/jsx-max-props-per-line': 1,
+        'react/jsx-max-props-per-line': 0,
         // No .bind() or Arrow Functions in JSX Props
         'react/jsx-no-bind': 2,
         // Prevent duplicate props in JSX
         'react/jsx-no-duplicate-props': 0,
         // Prevent usage of unwrapped JSX strings
-        'react/jsx-no-literals': 1,
+        'react/jsx-no-literals': 0,
         // Disallow undeclared variables in JSX
         'react/jsx-no-undef': 2,
         // Enforce PasalCase for user-defined JSX components

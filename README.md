@@ -25,8 +25,8 @@ Then enhance it with one or more **addons**:
 
 - `browser` - If you are going to develop code for the browser (having in mind IE >= 9)
 - `node` - If you are going to develop code for NodeJS
+- `es6-modules` - If you are going to use ES6 import & export (must be used with the `es6` base configuration)
 - `react` - If you are going to use React and JSX (requires `eslint-plugin-react`)
-
 
 Finally, simply create a `.eslintrc.json` file with the chosen base configuration and addons. Feel free to override rules you won't agree with. You can look at some examples bellow.
 
@@ -35,27 +35,41 @@ Alternatively, you can make your own configuration by using the set of **rules**
 
 ### Examples
 
-Cutting edge ES6 in the browser, using react:
+Cutting edge ES6 with modules in the browser, using react:
 
 ```json
 {
     "root": true,
     "extends": [
         "@satazor/es6",
+        "@satazor/addons/es6-modules",
         "@satazor/addons/browser",
         "@satazor/addons/react"
     ]
 }
 ```
 
-Cutting edge ES6 in NodeJS:
+Cutting edge ES6 with modules in NodeJS:
 
 ```json
 {
     "root": true,
     "extends": [
-        "@satazor/es5",
-        "@satazor/addons/browser"
+        "@satazor/es6",
+        "@satazor/addons/es6-modules",
+        "@satazor/addons/node"
+    ]
+}
+```
+
+Cutting edge ES6 in NodeJS (with CommonJS and not ES6 modules):
+
+```json
+{
+    "root": true,
+    "extends": [
+        "@satazor/es6",
+        "@satazor/addons/node"
     ]
 }
 ```
@@ -66,7 +80,7 @@ Good old ES5 in NodeJS:
 {
     "root": true,
     "extends": [
-        "@satazor/es6",
+        "@satazor/es5",
         "@satazor/addons/node"
     ]
 }

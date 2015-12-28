@@ -41,10 +41,10 @@ Cutting edge ES6 with modules in the browser, using react:
 {
     "root": true,
     "extends": [
-        "@satazor/es6",
-        "@satazor/addons/es6-modules",
-        "@satazor/addons/browser",
-        "@satazor/addons/react"
+        "@satazor/eslint-config/es6",
+        "@satazor/eslint-config/addons/es6-modules",
+        "@satazor/eslint-config/addons/browser",
+        "@satazor/eslint-config/addons/react"
     ]
 }
 ```
@@ -55,9 +55,9 @@ Cutting edge ES6 with modules in NodeJS:
 {
     "root": true,
     "extends": [
-        "@satazor/es6",
-        "@satazor/addons/es6-modules",
-        "@satazor/addons/node"
+        "@satazor/eslint-config/es6",
+        "@satazor/eslint-config/addons/es6-modules",
+        "@satazor/eslint-config/addons/node"
     ]
 }
 ```
@@ -68,8 +68,8 @@ Cutting edge ES6 in NodeJS (with CommonJS and not ES6 modules):
 {
     "root": true,
     "extends": [
-        "@satazor/es6",
-        "@satazor/addons/node"
+        "@satazor/eslint-config/es6",
+        "@satazor/eslint-config/addons/node"
     ]
 }
 ```
@@ -80,8 +80,8 @@ Good old ES5 in NodeJS:
 {
     "root": true,
     "extends": [
-        "@satazor/es5",
-        "@satazor/addons/node"
+        "@satazor/eslint-config/es5",
+        "@satazor/eslint-config/addons/node"
     ]
 }
 ```

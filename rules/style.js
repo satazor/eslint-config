@@ -72,7 +72,7 @@ module.exports = {
         // disallow multiple empty lines and only one newline at the end
         'no-multiple-empty-lines': [2, { 'max': 2, 'maxEOF': 1 }],
         // disallow negated conditions
-        'no-negated-condition': 2,
+        'no-negated-condition': 0,
         // disallow nested ternary expressions
         'no-nested-ternary': 2,
         // disallow use of the Object constructor

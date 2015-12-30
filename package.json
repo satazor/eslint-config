@@ -18,7 +18,7 @@
     "url": "https://github.com/satazor/eslint-config/issues"
   },
   "repository": "git://github.com/satazor/eslint-config.git",
-  "main": "./configurations/eslint.js",
+  "main": "index.js",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^1.10.3",

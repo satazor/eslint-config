@@ -5,13 +5,13 @@ My own eslint configurations.
 
 ## Installation
 
-`$ npm install --save-dev satazor@eslint-config eslint@^1.10.3`
+`$ npm install --save-dev satazor@eslint-config`
 
 Additional dependencies that need to be installed per addon:
 
 react addon: `$ npm install --save-dev eslint-plugin-react@^3.13.0`
 
-This config was tested with these dependencies version ranges. Use other versions at your own risk. I will try to keep this project up to date with the changes of `eslint` and the plugins used here.
+This config was tested with `eslint@^1.10.3` and the specific version ranges for plugins. Use other versions at your own risk. I will try to keep this project up to date with the changes of `eslint` and the plugins used here.
 
 
 ## Usage

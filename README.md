@@ -1,6 +1,6 @@
 # eslint-config
 
-My own eslint configurations.
+My own [eslint](http://eslint.org/) configurations.
 
 
 ## Installation

@@ -10,71 +10,71 @@ module.exports = {
         'jsx': true,
     },
     'rules': {
-        // Prevent missing displayName in a React component definition
+        // prevent missing displayName in a React component definition
         'react/display-name': 0,
-        // Forbid certain propTypes (forbid-prop-types)
+        // forbid certain propTypes (forbid-prop-types)
         'react/forbid-prop-types': 0,
-        // Enforce boolean attributes notation in JSX
+        // enforce boolean attributes notation in JSX
         'react/jsx-boolean-value': [2, 'never'],
-        // Validate closing bracket location in JSX
+        // validate closing bracket location in JSX
         'react/jsx-closing-bracket-location': [2, 'line-aligned'],
-        // Enforce or disallow spaces inside of curly braces in JSX attributes
+        // enforce or disallow spaces inside of curly braces in JSX attributes
         'react/jsx-curly-spacing': 0,
-        // Enforce event handler naming conventions in JSX
+        // enforce event handler naming conventions in JSX
         'react/jsx-handler-names': 2,
-        // Validate props indentation in JSX
+        // validate props indentation in JSX
         'react/jsx-indent-props': [2, 4],
-        // Detect missing key prop
+        // detect missing key prop
         'react/jsx-key': 1,
-        // Limit maximum of props on a single line in JSX
+        // limit maximum of props on a single line in JSX
         'react/jsx-max-props-per-line': 0,
-        // No .bind() or Arrow Functions in JSX Props
+        // no .bind() or Arrow Functions in JSX Props
         'react/jsx-no-bind': 2,
-        // Prevent duplicate props in JSX
+        // prevent duplicate props in JSX
         'react/jsx-no-duplicate-props': 0,
-        // Prevent usage of unwrapped JSX strings
+        // prevent usage of unwrapped JSX strings
         'react/jsx-no-literals': 0,
-        // Disallow undeclared variables in JSX
+        // disallow undeclared variables in JSX
         'react/jsx-no-undef': 2,
-        // Enforce PasalCase for user-defined JSX components
+        // enforce PasalCase for user-defined JSX components
         'react/jsx-pascal-case': 2,
-        // Enforce propTypes declarations alphabetical sorting
+        // enforce propTypes declarations alphabetical sorting
         'react/jsx-sort-prop-types': 0,
-        // Enforce props alphabetical sorting
+        // enforce props alphabetical sorting
         'react/jsx-sort-props': 0,
-        // Prevent React to be incorrectly marked as unused
+        // prevent React to be incorrectly marked as unused
         'react/jsx-uses-react': 2,
-        // Prevent variables used in JSX to be incorrectly marked as unused
+        // prevent variables used in JSX to be incorrectly marked as unused
         'react/jsx-uses-vars': 2,
-        // Prevent usage of dangerous JSX properties
+        // prevent usage of dangerous JSX properties
         'react/no-danger': 0,
-        // Prevent usage of deprecated methods
+        // prevent usage of deprecated methods
         'react/no-deprecated': 1,
-        // Prevent usage of setState in componentDidMount
+        // prevent usage of setState in componentDidMount
         'react/no-did-mount-set-state': [2, 'allow-in-func'],
-        // Prevent usage of setState in componentDidUpdate
+        // prevent usage of setState in componentDidUpdate
         'react/no-did-update-set-state': [2, 'allow-in-func'],
-        // Prevent direct mutation of this.state
+        // prevent direct mutation of this.state
         'react/no-direct-mutation-state': 1,
-        // Prevent usage of isMounted
+        // prevent usage of isMounted
         'react/no-is-mounted': 2,
-        // Prevent multiple component definition per file
+        // prevent multiple component definition per file
         'react/no-multi-comp': 2,
-        // Prevent usage of setState
+        // prevent usage of setState
         'react/no-set-state': 1,
-        // Prevent usage of unknown DOM property
+        // prevent usage of unknown DOM property
         'react/no-unknown-property': 2,
-        // Require ES6 class declarations over React.createClass
+        // require ES6 class declarations over React.createClass
         'react/prefer-es6-class': [2, 'always'],
-        // Prevent missing props validation in a React component definition
+        // prevent missing props validation in a React component definition
         'react/prop-types': 2,
-        // Prevent missing React when using JSX
+        // prevent missing React when using JSX
         'react/react-in-jsx-scope': 2,
-        // Restrict file extensions that may be required
+        // restrict file extensions that may be required
         'react/require-extension': 0,
-        // Prevent extra closing tags for components without children
+        // prevent extra closing tags for components without children
         'react/self-closing-comp': 2,
-        // Enforce component methods order
+        // enforce component methods order
         'react/sort-comp': [2, {
             'order': [
                 'lifecycle',
@@ -85,7 +85,7 @@ module.exports = {
                 'render',
             ],
         }],
-        // Prevent missing parentheses around multilines JSX
+        // prevent missing parentheses around multilines JSX
         'react/wrap-multilines': [2, {
             'declaration': true,
             'assignment': true,

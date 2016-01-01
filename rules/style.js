@@ -105,7 +105,7 @@ module.exports = {
         'quote-props': [2, 'as-needed'],
         // specify whether double or single quotes should be used
         'quotes': [2, 'single', 'avoid-escape'],
-        // Require JSDoc comment
+        // require JSDoc comment
         'require-jsdoc': 0,
         // enforce spacing before and after semicolons
         'semi-spacing': [2, { 'before': false, 'after': true }],
@@ -127,7 +127,7 @@ module.exports = {
         'space-infix-ops': 2,
         // require a space after return, throw, and case
         'space-return-throw-case': 2,
-        // Require or disallow spaces before/after unary operators
+        // require or disallow spaces before/after unary operators
         'space-unary-ops': 2,
         // require or disallow a space immediately following the // or /* in a comment
         'spaced-comment': [2, 'always', {

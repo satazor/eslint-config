@@ -4,7 +4,7 @@
 
 module.exports = {
     'rules': {
-        // Enforces getter/setter pairs in objects
+        // enforces getter/setter pairs in objects
         'accessor-pairs': 0,
         // treat var statements as if they were block scoped
         'block-scoped-var': 2,

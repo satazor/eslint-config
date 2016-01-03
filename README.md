@@ -1,5 +1,15 @@
 # eslint-config
 
+[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Dependency status][david-dm-image]][david-dm-url] [![Dev Dependency status][david-dm-dev-image]][david-dm-dev-url]
+
+[npm-url]:https://npmjs.org/package/cross-spawn
+[downloads-image]:http://img.shields.io/npm/dm/cross-spawn.svg
+[npm-image]:http://img.shields.io/npm/v/cross-spawn.svg
+[david-dm-url]:https://david-dm.org/IndigoUnited/node-cross-spawn
+[david-dm-image]:https://img.shields.io/david/IndigoUnited/node-cross-spawn.svg
+[david-dm-dev-url]:https://david-dm.org/IndigoUnited/node-cross-spawn#info=devDependencies
+[david-dm-dev-image]:https://img.shields.io/david/dev/IndigoUnited/node-cross-spawn.svg
+
 My own [eslint](http://eslint.org/) configurations.
 
 

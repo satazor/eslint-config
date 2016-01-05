@@ -56,7 +56,7 @@ Cutting edge ES6 with modules in the browser, using react:
 }
 ```
 
-Cutting edge ES6 with modules in NodeJS:
+Cutting edge ES6 with modules in NodeJS (requires babel or similar):
 
 ```json
 {
@@ -69,7 +69,7 @@ Cutting edge ES6 with modules in NodeJS:
 }
 ```
 
-Cutting edge ES6 in NodeJS (with CommonJS and not ES6 modules):
+Use ES6 in NodeJS without any transpiler:
 
 ```json
 {
@@ -80,6 +80,20 @@ Cutting edge ES6 in NodeJS (with CommonJS and not ES6 modules):
     ]
 }
 ```
+
+.. and if you are programming against NodeJS v4 please use:
+
+```json
+{
+    "root": true,
+    "extends": [
+        "@satazor/eslint-config/es6",
+        "@satazor/eslint-config/addons/node"
+        "@satazor/eslint-config/addons/node-v4-es6"
+    ]
+}
+```
+
 
 Good old ES5 in NodeJS:
 

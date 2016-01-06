@@ -12,7 +12,7 @@ My own [eslint](http://eslint.org/) configurations.
 
 ## Installation
 
-`$ npm install --save-dev satazor@eslint-config`
+`$ npm install --save-dev @satazor/eslint-config`
 
 Additional dependencies that need to be installed per addon:
 

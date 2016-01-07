@@ -7,7 +7,7 @@ module.exports = {
         // disallow trailing commas in object literals
         'comma-dangle': [2, 'always-multiline'],
         // disallow assignment in conditional expressions
-        'no-cond-assign': [2, 'always'],
+        'no-cond-assign': [2, 'except-parens'],
         // disallow use of console
         // comment: disabled because console.* expressions are useful for development and
         //                    should be removed by the build process

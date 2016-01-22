@@ -17,7 +17,7 @@ module.exports = {
         // enforce boolean attributes notation in JSX
         'react/jsx-boolean-value': [2, 'never'],
         // validate closing bracket location in JSX
-        'react/jsx-closing-bracket-location': [2, 'line-aligned'],
+        'react/jsx-closing-bracket-location': [2, 'after-props'],
         // enforce or disallow spaces inside of curly braces in JSX attributes
         'react/jsx-curly-spacing': 0,
         // enforce event handler naming conventions in JSX
@@ -78,11 +78,10 @@ module.exports = {
         'react/sort-comp': [2, {
             'order': [
                 'lifecycle',
-                '/^on.+$/',
                 '/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/',
-                'everything-else',
-                '/^render.+$/',
                 'render',
+                '/^render.+$/',
+                'everything-else',
             ],
         }],
         // prevent missing parentheses around multilines JSX

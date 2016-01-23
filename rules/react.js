@@ -82,6 +82,7 @@ module.exports = {
                 'render',
                 '/^render.+$/',
                 'everything-else',
+                '/^_?handle/',
             ],
         }],
         // prevent missing parentheses around multilines JSX

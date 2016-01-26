@@ -19,7 +19,7 @@ module.exports = {
         // validate closing bracket location in JSX
         'react/jsx-closing-bracket-location': [2, 'after-props'],
         // enforce or disallow spaces inside of curly braces in JSX attributes
-        'react/jsx-curly-spacing': 0,
+        'react/jsx-curly-spacing': [2, "always"],
         // enforce event handler naming conventions in JSX
         'react/jsx-handler-names': 2,
         // validate props indentation in JSX

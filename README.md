@@ -32,7 +32,7 @@ Then enhance it with one or more **addons**:
 
 - `browser` - If you are going to develop code for the browser (having in mind IE >= 9)
 - `node` - If you are going to develop code for NodeJS
-- `node-v4-es6` - If you are going to develop code for NodeJS >= 4 with the `es6` base configuration
+- `node-v4-es6` - If you are going to develop code for NodeJS 4.x.x with the `es6` base configuration
 - `es6-modules` - If you are going to use ES6 import & export (must be used with the `es6` base configuration)
 - `react` - If you are going to use React and JSX (requires `eslint-plugin-react`)
 

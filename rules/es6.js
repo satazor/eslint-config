@@ -37,7 +37,7 @@ module.exports = {
         // suggest using the spread operator instead of .apply()
         'prefer-spread': 2,
         // suggest using template literals instead of strings concatenation
-        'prefer-template': 0,
+        'prefer-template': 1,
         // disallow generator functions that do not have yield
         'require-yield': 1,
     },

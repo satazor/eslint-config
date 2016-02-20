@@ -36,6 +36,8 @@ module.exports = {
         'jsx-quotes': [2, 'prefer-double'],
         // enforces spacing between keys and values in object literal properties
         'key-spacing': [2, { 'beforeColon': false, 'afterColon': true }],
+        // enforce spacing before and after keywords
+        'keyword-spacing': 2,
         // disallow mixed 'LF' and 'CRLF' as linebreaks
         'linebreak-style': [2, 'unix'],
         // enforces empty lines around comments
@@ -57,6 +59,8 @@ module.exports = {
         'new-parens': 2,
         // allow/disallow an empty newline after var statement
         'newline-after-var': [2, 'always'],
+        // enforce newline after each call when chaining the calls
+        'newline-per-chained-call': 2,
         // disallow use of the Array constructor
         'no-array-constructor': 2,
         // no-bitwise - disallow use of bitwise operators
@@ -91,10 +95,14 @@ module.exports = {
         'no-underscore-dangle': 0,
         // disallow the use of Boolean literals in conditional expressions
         'no-unneeded-ternary': 2,
+        // disallow whitespace before properties
+        'no-whitespace-before-property': 2,
         // require padding inside curly braces
         'object-curly-spacing': [2, 'always'],
         // allow just one var statement per function
         'one-var': [2, 'never'],
+        // require or disallow an newline around variable declarations
+        'one-var-declaration-per-line': [2, 'always'],
         // require assignment operator shorthand where possible or prohibit it entirely
         'operator-assignment': 0,
         // enforce operators to be placed before or after line breaks
@@ -109,24 +117,20 @@ module.exports = {
         'require-jsdoc': 0,
         // enforce spacing before and after semicolons
         'semi-spacing': [2, { 'before': false, 'after': true }],
+        // sort import declarations within module
+        'sort-imports': 0,
         // require or disallow use of semicolons instead of ASI
         'semi': [2, 'always'],
         // sort variables within the same declaration block
         'sort-vars': 0,
-        // require a space after certain keywords
-        'space-after-keywords': [2, 'always'],
         // require or disallow space before blocks
         'space-before-blocks': 2,
         // require or disallow space before function opening parenthesis
         'space-before-function-paren': [2, { 'anonymous': 'always', 'named': 'never' }],
-        // require a space before certain keywords
-        'space-before-keywords': [2, 'always'],
         // require or disallow spaces inside parentheses
         'space-in-parens': [2, 'never'],
         // require spaces around operators
         'space-infix-ops': 2,
-        // require a space after return, throw, and case
-        'space-return-throw-case': 2,
         // require or disallow spaces before/after unary operators
         'space-unary-ops': 2,
         // require or disallow a space immediately following the // or /* in a comment

@@ -4,8 +4,8 @@
 //       see: https://github.com/eslint/eslint/issues/3902
 
 module.exports = {
-    'ecmaFeatures': {
-        'modules': true,
+    'parserOptions': {
+        'sourceType': 'module',
     },
     'rules': {
         // rule to control usage of strict mode directives

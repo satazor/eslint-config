@@ -6,6 +6,8 @@ module.exports = {
     'rules': {
         // enforces getter/setter pairs in objects
         'accessor-pairs': 0,
+        // enforces return statements in callbacks of array's methods
+        'array-callback-return': 2,
         // treat var statements as if they were block scoped
         'block-scoped-var': 2,
         // specify the maximum cyclomatic complexity allowed in a program
@@ -36,8 +38,8 @@ module.exports = {
         'no-div-regex': 0,
         // disallow else after a return in an if
         'no-else-return': 2,
-        // disallow use of labels for anything other then loops and switches
-        'no-empty-label': 2,
+        // disallow use of empty functions
+        'no-empty-function': 0,
         // disallow use of empty destructuring patterns
         'no-empty-pattern': 2,
         // disallow comparisons to null without a type-checking operator
@@ -48,6 +50,8 @@ module.exports = {
         'no-extend-native': 2,
         // disallow unnecessary function binding
         'no-extra-bind': 2,
+        //  disallow unnecessary labels
+        'no-extra-label': 2,
         // disallow fallthrough of case statements
         // comment: while it is not allowed, it can still be allowed if you comment with "falls through"
         'no-fallthrough': 2,
@@ -55,6 +59,8 @@ module.exports = {
         'no-floating-decimal': 2,
         // disallow the type conversions with shorter notations
         'no-implicit-coercion': 0,
+        // disallow var and named functions in global scope
+        'no-implicit-globals': 2,
         // disallow use of eval()-like methods
         'no-implied-eval': 2,
         // disallow this keywords outside of classes or class-like objects
@@ -99,14 +105,20 @@ module.exports = {
         'no-return-assign': 2,
         // disallow use of `javascript:` urls.
         'no-script-url': 2,
+        // disallow assignments where both sides are exactly the same
+        'no-self-assign': 2,
         // disallow comparisons where both sides are exactly the same
         'no-self-compare': 2,
         // disallow use of comma operator
         'no-sequences': 2,
         // restrict what can be thrown as an exception
         'no-throw-literal': 2,
+        // disallow unmodified conditions of loops
+        'no-unmodified-loop-condition': 2,
         // disallow usage of expressions in statement position
         'no-unused-expressions': [2, { 'allowShortCircuit': true }],
+        // disallow unused labels
+        'no-unused-labels': 2,
         // disallow unnecessary .call() and .apply()
         'no-useless-call': 2,
         // disallow unnecessary concatenation of literals or template literals

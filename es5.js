@@ -9,7 +9,7 @@ module.exports = {
         './rules/variables',
     ].map(require.resolve),
     'env': {},
-    'ecmaFeatures': {},
+    'parserOptions': {},
     'globals': {},
     'rules': {},
 };

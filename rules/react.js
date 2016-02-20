@@ -19,11 +19,15 @@ module.exports = {
         // validate closing bracket location in JSX
         'react/jsx-closing-bracket-location': [2, 'after-props'],
         // enforce or disallow spaces inside of curly braces in JSX attributes
-        'react/jsx-curly-spacing': [2, "always"],
+        'react/jsx-curly-spacing': [2, 'always'],
+        // enforce or disallow spaces around equal signs in JSX attributes
+        'react/jsx-equals-spacing': [2, 'never'],
         // enforce event handler naming conventions in JSX
         'react/jsx-handler-names': 2,
         // validate props indentation in JSX
         'react/jsx-indent-props': [2, 4],
+        // validate JSX indentation
+        'react/jsx-indent': [2, 4],
         // detect missing key prop
         'react/jsx-key': 1,
         // limit maximum of props on a single line in JSX
@@ -38,8 +42,6 @@ module.exports = {
         'react/jsx-no-undef': 2,
         // enforce PasalCase for user-defined JSX components
         'react/jsx-pascal-case': 2,
-        // enforce propTypes declarations alphabetical sorting
-        'react/jsx-sort-prop-types': 0,
         // enforce props alphabetical sorting
         'react/jsx-sort-props': 0,
         // prevent React to be incorrectly marked as unused
@@ -85,6 +87,8 @@ module.exports = {
                 '/^_?handle/',
             ],
         }],
+        // enforce propTypes declarations alphabetical sorting
+        'react/sort-prop-types': 0,
         // prevent missing parentheses around multilines JSX
         'react/wrap-multilines': [2, {
             'declaration': true,

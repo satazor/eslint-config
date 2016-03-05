@@ -1,7 +1,7 @@
 {
   "name": "@satazor/eslint-config",
   "description": "My own eslint configurations",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "keywords": [
     "eslint-config",
     "eslintconfig",

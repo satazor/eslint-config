@@ -59,6 +59,8 @@ module.exports = {
         'new-parens': 2,
         // allow/disallow an empty newline after var statement
         'newline-after-var': [2, 'always'],
+        // require newline before return statement
+        'newline-before-return': 0,
         // enforce newline after each call when chaining the calls
         'newline-per-chained-call': 0,
         // disallow use of the Array constructor

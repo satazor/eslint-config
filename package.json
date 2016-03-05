@@ -10,6 +10,10 @@
     "linter",
     "style"
   ],
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint '{*.js,addons/**/*.js,rules/**/*.js}'"
+  },
   "author": "André Cruz <andremiguelcruz@msn.com>",
   "homepage": "https://github.com/satazor/eslint-config",
   "bugs": {

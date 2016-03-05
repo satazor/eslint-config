@@ -68,6 +68,8 @@ module.exports = {
         'react/no-unknown-property': 2,
         // require ES6 class declarations over React.createClass
         'react/prefer-es6-class': [2, 'always'],
+        // enforce stateless components to be written as a pure function
+        'react/prefer-stateless-function': 0,
         // prevent missing props validation in a React component definition
         'react/prop-types': 2,
         // prevent missing React when using JSX

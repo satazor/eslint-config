@@ -22,6 +22,8 @@ module.exports = {
         'no-const-assign': 2,
         // disallow duplicate name in class members
         'no-dupe-class-members': 2,
+        // disallow duplicate module imports
+        'no-duplicate-imports': 2,
         // disallow use of the new operator with the Symbol object
         'no-new-symbol': 2,
         // disallow to use this/super before super() calling in constructors.

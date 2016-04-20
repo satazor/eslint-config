@@ -22,6 +22,8 @@ module.exports = {
         'react/jsx-curly-spacing': [2, 'always'],
         // enforce or disallow spaces around equal signs in JSX attributes
         'react/jsx-equals-spacing': [2, 'never'],
+        // ensure correct position of the first property.
+        'react/jsx-first-prop-new-line': 0,
         // enforce event handler naming conventions in JSX
         'react/jsx-handler-names': 2,
         // validate props indentation in JSX
@@ -76,6 +78,8 @@ module.exports = {
         'react/react-in-jsx-scope': 2,
         // restrict file extensions that may be required
         'react/require-extension': 0,
+        // enforce ES5 or ES6 class for returning value in render function
+        'react/require-render-return': 2,
         // prevent extra closing tags for components without children
         'react/self-closing-comp': 2,
         // enforce component methods order

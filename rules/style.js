@@ -53,6 +53,8 @@ module.exports = {
         'max-params': [1, 6],
         // specify the maximum number of statement allowed in a function
         'max-statements': [1, 140],
+        // enforce a maximum number of statements allowed per line
+        'max-statements-per-line': [1, { 'max': 1 }],
         // require a capital letter for constructors
         'new-cap': [2, { 'newIsCap': true }],
         // disallow the omission of parentheses when invoking a constructor with no arguments

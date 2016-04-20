@@ -25,7 +25,10 @@ module.exports = {
         // ensure correct position of the first property.
         'react/jsx-first-prop-new-line': 0,
         // enforce event handler naming conventions in JSX
-        'react/jsx-handler-names': 2,
+        'react/jsx-handler-names': [2, {
+            'eventHandlerPrefix': '_handle',
+            'eventHandlerPropPrefix': 'on',
+        }],
         // validate props indentation in JSX
         'react/jsx-indent-props': [2, 4],
         // validate JSX indentation

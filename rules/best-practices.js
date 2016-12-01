@@ -102,7 +102,7 @@ module.exports = {
         // disallow declaring the same variable more then once
         'no-redeclare': 2,
         // disallow use of assignment in return statement
-        'no-return-assign': 0,
+        'no-return-assign': 2,
         // disallow use of `javascript:` urls.
         'no-script-url': 2,
         // disallow assignments where both sides are exactly the same

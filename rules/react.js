@@ -53,14 +53,20 @@ module.exports = {
         'react/jsx-uses-react': 2,
         // prevent variables used in JSX to be incorrectly marked as unused
         'react/jsx-uses-vars': 2,
+        // prevent missing parentheses around multilines JSX
+        'react/jsx-wrap-multilines': [2, {
+            'declaration': true,
+            'assignment': true,
+            'return': true,
+        }],
         // prevent usage of dangerous JSX properties
         'react/no-danger': 0,
         // prevent usage of deprecated methods
         'react/no-deprecated': 1,
         // prevent usage of setState in componentDidMount
-        'react/no-did-mount-set-state': [2, 'allow-in-func'],
+        'react/no-did-mount-set-state': [2],
         // prevent usage of setState in componentDidUpdate
-        'react/no-did-update-set-state': [2, 'allow-in-func'],
+        'react/no-did-update-set-state': [2],
         // prevent direct mutation of this.state
         'react/no-direct-mutation-state': 1,
         // prevent usage of isMounted
@@ -98,11 +104,5 @@ module.exports = {
         }],
         // enforce propTypes declarations alphabetical sorting
         'react/sort-prop-types': 0,
-        // prevent missing parentheses around multilines JSX
-        'react/wrap-multilines': [2, {
-            'declaration': true,
-            'assignment': true,
-            'return': true,
-        }],
     },
 };

@@ -23,7 +23,7 @@
   "main": "index.js",
   "license": "MIT",
   "peerDependencies": {
-    "eslint": "^3.0.0",
+    "eslint": "^3.16.0",
     "eslint-plugin-react": "^6.0.0"
   },
   "devDependencies": {

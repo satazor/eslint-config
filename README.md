@@ -4,7 +4,7 @@
 
 [david-dm-url]:https://david-dm.org/satazor/eslint-config
 [david-dm-image]:https://img.shields.io/david/satazor/eslint-config.svg
-[david-dm-dev-url]:https://david-dm.org/satazor/eslint-config#info=devDependencies
+[david-dm-dev-url]:https://david-dm.org/satazor/eslint-config?type=dev
 [david-dm-dev-image]:https://img.shields.io/david/dev/satazor/eslint-config.svg
 
 My own [eslint](http://eslint.org/) configurations.
